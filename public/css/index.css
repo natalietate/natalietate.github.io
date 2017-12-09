@@ -1,1 +1,9 @@
 /* TODO overrides for bulma */
+
+.bg-image {
+  background-image: url('../img/iswanto-arif.jpg') ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
