@@ -1,13 +1,24 @@
-/* TODO overrides for bulma */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Biryani', sans-serif;
+}
+
+.main-hello {
+    text-shadow: 2px 2px 4px #000000;
+}
+.mini-hello {
+  text-shadow: 1px 1px 2px #000000;
+}
 
 .proj-image {
-  background-color: black;
+  background-color: lightslategray;
 }
 
 .pdg {
   padding-bottom: 40px;
 }
-
 
 /* Backgrounds */
 
