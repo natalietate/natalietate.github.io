@@ -1,9 +1,53 @@
-/* TODO overrides for bulma */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Biryani', sans-serif;
+}
 
+.main-hello {
+    text-shadow: 2px 2px 4px #000000;
+}
+.mini-hello {
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.proj-image {
+  background-color: lightslategray;
+}
+
+.pdg {
+  padding-bottom: 40px;
+}
+
+/* Backgrounds */
 .bg-image {
-  background-image: url('../img/iswanto-arif.jpg') ;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size:  cover;
+}
+
+.night {
+  background-image: url('../img/eggs/larm-rmah.jpg');
+}
+
+.evening {
+  background-image: url('../img/eggs/samson-duborg-rankin.jpg');
+}
+
+.afternoon {
+  background-image: url('../img/eggs/sabri-tuzcu.jpg');
+}
+
+.morning {
+  background-image: url('../img/eggs/patrick-fore.jpg');
+}
+
+.early {
+  background-image: url('../img/eggs/egzon-bytyqi.jpg');
+}
+
+.late {
+  background-image: url('../img/eggs/pineapple-supply-co.jpg');
 }

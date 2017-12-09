@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Natalie Russo | Web Developer</title>
+  <title>Natalie Russo | Developer</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="public/css/index.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Biryani:900|Open+Sans">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+
 </head>
 
 <body>
@@ -16,7 +18,7 @@
   <!-- TODO fix ugly hover -->
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="#">NR</a>
+      <a class="navbar-item" href="#">🍕</a>
       <div class="navbar-burger burger" data-target="navMenu">
         <span></span>
         <span></span>
@@ -25,7 +27,6 @@
     </div>
     <div class="navbar-menu navbar-end" id="navMenu">
       <a class="navbar-item" href="#about"> About </a>
-      <a class="navbar-item" href="#skills"> Skills </a>
       <a class="navbar-item" href="#projects"> Projects </a>
       <a class="navbar-item" href="#contact"> Contact </a>
     </div>
@@ -33,14 +34,14 @@
   </nav>
 
   <!--  Hero -->
-  <section class="hero bg-image is-medium">
+  <section class="hero bg-image is-large" id="rotate">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered has-text-white">
+        <h1 class="is-size-1 title has-text-centered has-text-white main-hello">
           Hey, my name is Natalie Russo.
         </h1>
-        <h2 class="subtitle has-text-centered has-text-white">
-          I'm a web developer currently based in the Philly suburbs.
+        <h2 class="subtitle has-text-centered has-text-white mini-hello">
+          I'm a web developer who loves to write clean and efficient code.
         </h2>
       </div>
     </div>
@@ -49,8 +50,8 @@
   <!--  About Section -->
   <section class="section" id="about">
     <div class="container">
-      <h1 class="title has-text-right">About Natalie</h1>
-      <h2 class="subtitle has-text-right">
+      <h1 class="is-size-2 title has-text-right has-text-dark">About Natalie</h1>
+      <h2 class="subtitle has-text-right has-text-dark">
         I love working with code and design. I started my career in digital marketing, and now I'm a web developer.
       </h2>
       <div class="columns">
@@ -58,144 +59,130 @@
           <img src="public/img/profile-placeholder.png" alt="Natalie Russo" class="is-image">
         </div>
         <div class="column">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum quidem quae aut facilis sunt dolores quis, aliquam quia molestiae nostrum atque, porro? Earum ab perspiciatis ut ullam omnis porro. Lorem ipsum dolor sit amet, consectetur
+          <p class="has-text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum quidem quae aut facilis sunt dolores quis, aliquam quia molestiae nostrum atque, porro? Earum ab perspiciatis ut ullam omnis porro. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Atque maxime inventore enim velit in nulla veniam nostrum, minus sint, quia, hic magnam. Voluptas perferendis vel at, beatae illo, harum quod!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum quidem quae aut facilis sunt dolores quis, aliquam quia molestiae nostrum atque, porro? Earum ab perspiciatis ut ullam omnis porro. Lorem ipsum dolor sit amet, consectetur
+          <p class="has-text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum quidem quae aut facilis sunt dolores quis, aliquam quia molestiae nostrum atque, porro? Earum ab perspiciatis ut ullam omnis porro. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Atque maxime inventore enim velit in nulla veniam nostrum, minus sint, quia, hic magnam. Voluptas perferendis vel at, beatae illo, harum quod!</p>
         </div>
         <div class="column">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum quidem quae aut facilis sunt dolores quis, aliquam quia molestiae nostrum atque, porro? Earum ab perspiciatis ut ullam omnis porro. Lorem ipsum dolor sit amet, consectetur
+          <p class="has-text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolorum quidem quae aut facilis sunt dolores quis, aliquam quia molestiae nostrum atque, porro? Earum ab perspiciatis ut ullam omnis porro. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Atque maxime inventore enim velit in nulla veniam nostrum, minus sint, quia, hic magnam. Voluptas perferendis vel at, beatae illo, harum quod!</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Skill Section -->
-  <section class="section bg-image" id="skills">
-    <div class="container">
-      <h1 class="title has-text-white">Skills &amp; Areas of Interest </h1>
-      <h2 class="subtitle has-text-white">Here are some things I know how to do and use...</h2> <br>
-    </div>
 
-    <!-- Skill Icons -->
-      <div class="level">
-        <!-- TODO can i use font awesome icons here? should be visual -->
-        <!--  TODO clean up divs - I can combine these into level item I think-->
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">HTML</p></div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">CSS</p></div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">Javascript</p></div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">Ruby</p></div>
-        </div>
-      </div>
-      <br><br>
-      <div class="level">
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">Rails</p></div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">Github</p></div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">Terminal</p></div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div><p class="title has-text-white">Sketch</p></div>
-        </div>
-      </div>
-  </section>
-
-  <!-- Projects  -->
+  <!-- Projects -->
+  <section class="hero proj-image is-large">
   <section class="section" id="projects">
     <div class="container">
-      <h1 class="title has-text-centered">Projects</h1>
-      <h2 class="subtitle has-text-centered">Here's a sampling of my recent projects.</h2>
+      <h1 class="title is-size-2 has-text-centered has-text-white main-hello">Projects</h1>
+      <h2 class="subtitle has-text-centered has-text-white mini-hello"> Here are a few of my recent projects...</h2>
     </div>
   </section>
 
-  <!-- Tiles for Projects -->
-  <div class="container">
+  <div class="container pdg">
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title has-text-centered">One</p>
+          <p class="title has-text-centered has-text-dark">One</p>
           <figure class="image">
             <img src="public/img/MBP.png">
           </figure>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p class="has-text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+          <div class="buttons is-centered">
+            <a class="button is-dark" href="#">
+              <span class="icon">
+                <i class="fas fa-desktop"></i>
+              </span>
+              <span>Demo</span>
+            </a>
+            <a class="button is-dark" href="#">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
           </div>
         </article>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title has-text-centered">Two</p>
+          <p class="title has-text-centered has-text-dark">Two</p>
           <figure class="image">
             <img src="public/img/MBP.png">
           </figure>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p class="has-text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          </div>
+          <div class="buttons is-centered">
+            <a class="button is-dark" href="#">
+              <span class="icon">
+                <i class="fas fa-desktop"></i>
+              </span>
+              <span>Demo</span>
+            </a>
+            <a class="button is-dark" href="#">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
           </div>
         </article>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title has-text-centered">Three</p>
+          <p class="title has-text-centered has-text-dark">Three</p>
           <figure class="image">
             <img src="public/img/MBP.png">
           </figure>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p class="has-text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           </div>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title has-text-centered">Four</p>
-          <figure class="image">
-            <img src="public/img/MBP.png">
-          </figure>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+          <div class="buttons is-centered">
+            <a class="button is-dark" href="#">
+              <span class="icon">
+                <i class="fas fa-desktop"></i>
+              </span>
+              <span>Demo</span>
+            </a>
+            <a class="button is-dark" href="#">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
           </div>
         </article>
       </div>
     </div>
     <div class="buttons is-centered">
-      <a class="button is-medium is-dark">See More Projects</a>
+      <a class="button is-large is-light bir">See More Projects</a>
     </div>
   </div>
-
+</section>
 
 
   <!-- Stay in Touch -->
-
   <section class="section" id="contact">
     <div class="container">
-      <h1 class="title has-text-centered">Stay In Touch</h1>
+      <h1 class="title is-size-2 has-text-centered has-text-dark">Stay In Touch</h1>
       <div class="buttons is-centered">
-        <a class="button is-medium">
+        <a class="button is-large is-dark" href="#">
           <span class="icon"><i class="far fa-envelope"></i></span>
-          <span>Email</span>
         </a>
-        <a class="button is-medium">
+        <a class="button is-large is-dark" href="#">
           <span class="icon"><i class="fab fa-github"></i></span>
-          <span>GitHub</span>
         </a>
-        <a class="button is-medium">
+        <a class="button is-large is-dark" href="#">
           <span class="icon"><i class="fab fa-linkedin-in"></i></span>
-          <span>LinkedIn</span>
         </a>
-        <a class="button is-medium">
+        <a class="button is-large is-dark" href="#">
           <span class="icon"><i class="fab fa-twitter"></i></span>
-          <span>Twitter</span>
         </a>
       </div>
     </div>
