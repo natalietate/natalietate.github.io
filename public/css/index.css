@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-h1 {
+h1, .project-title {
   font-family: 'Biryani', sans-serif;
 }
 
