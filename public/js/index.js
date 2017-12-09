@@ -15,13 +15,50 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Get the target from the "data-target" attribute
         var target = el.dataset.target;
-        var target = document.getElementById(target);
+        var targetTwo = document.getElementById(target);
 
         // Toggle the class on both the "navbar-burger" and the "navbar-menu"
         el.classList.toggle('is-active');
-        target.classList.toggle('is-active');
+        targetTwo.classList.toggle('is-active');
 
       });
     });
   }
 });
+
+(function easterEgg() {
+  var date = new Date();
+  var hrs = date.getHours();
+  var img = document.querySelector("#rotate");
+
+  // night
+  if (hrs >= 20) {
+    img.className += " night";
+  }
+
+  // evening
+  else if (hrs >= 16) {
+    img.className += " evening";
+  }
+
+  // afternoon
+  else if (hrs >= 12) {
+    img.className += " afternoon";
+  }
+
+  // morning
+  else if (hrs >= 8) {
+    img.className += " morning";
+  }
+
+  // early am
+  else if (hrs >= 4) {
+    img.className += " early";
+  }
+
+  // late night
+  else {
+    img.className += " late";
+  }
+
+})();

@@ -1,13 +1,43 @@
 /* TODO overrides for bulma */
 
+.proj-image {
+  background-color: black;
+}
+
+.pdg {
+  padding-bottom: 40px;
+}
+
+
+/* Backgrounds */
+
 .bg-image {
-  background-image: url('../img/iswanto-arif.jpg') ;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size:  cover;
 }
 
-.pdg {
-  padding-bottom: 40px;
+.night {
+  background-image: url('../img/eggs/larm-rmah.jpg');
+}
+
+.evening {
+  background-image: url('../img/eggs/samson-duborg-rankin.jpg');
+}
+
+.afternoon {
+  background-image: url('../img/eggs/sabri-tuzcu.jpg');
+}
+
+.morning {
+  background-image: url('../img/eggs/patrick-fore.jpg');
+}
+
+.early {
+  background-image: url('../img/eggs/egzon-bytyqi.jpg');
+}
+
+.late {
+  background-image: url('../img/eggs/pineapple-supply-co.jpg');
 }
