@@ -17,24 +17,29 @@
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">NR</a>
+      <div class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-    <div class="navbar-end">
-      <!-- TODO add anchor links for page -->
-      <a class="navbar-item" href="#"> About </a>
-      <a class="navbar-item" href="#"> Skills </a>
-      <a class="navbar-item" href="#"> Projects </a>
-      <a class="navbar-item" href="#"> Contact </a>
+    <div class="navbar-menu navbar-end" id="navMenu">
+      <a class="navbar-item" href="#about"> About </a>
+      <a class="navbar-item" href="#skills"> Skills </a>
+      <a class="navbar-item" href="#projects"> Projects </a>
+      <a class="navbar-item" href="#contact"> Contact </a>
     </div>
+
   </nav>
 
   <!--  Hero -->
-  <section class="hero is-primary is-medium">
+  <section class="hero bg-image is-medium">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-centered">
+        <h1 class="title has-text-centered has-text-white">
           Hey, my name is Natalie Russo.
         </h1>
-        <h2 class="subtitle has-text-centered">
+        <h2 class="subtitle has-text-centered has-text-white">
           I'm a web developer currently based in the Philly suburbs.
         </h2>
       </div>
@@ -42,7 +47,7 @@
   </section>
 
   <!--  About Section -->
-  <section class="section">
+  <section class="section" id="about">
     <div class="container">
       <h1 class="title has-text-right">About Natalie</h1>
       <h2 class="subtitle has-text-right">
@@ -67,52 +72,51 @@
   </section>
 
   <!-- Skill Section -->
-  <section class="section">
+  <section class="section bg-image" id="skills">
     <div class="container">
-      <h1 class="title">Skills &amp; Areas of Interest </h1>
-      <h2 class="subtitle">Here are some things I know how to do and use...</h2>
+      <h1 class="title has-text-white">Skills &amp; Areas of Interest </h1>
+      <h2 class="subtitle has-text-white">Here are some things I know how to do and use...</h2> <br>
     </div>
+
+    <!-- Skill Icons -->
+      <div class="level">
+        <!-- TODO can i use font awesome icons here? should be visual -->
+        <!--  TODO clean up divs - I can combine these into level item I think-->
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">HTML</p></div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">CSS</p></div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">Javascript</p></div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">Ruby</p></div>
+        </div>
+      </div>
+      <br><br>
+      <div class="level">
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">Rails</p></div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">Github</p></div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">Terminal</p></div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div><p class="title has-text-white">Sketch</p></div>
+        </div>
+      </div>
   </section>
 
-  <!-- Skill Icons -->
-  <div class="container">
-    <div class="level">
-      <!-- TODO can i use font awesome icons here? should be visual -->
-      <div class="level-item has-text-centered">
-        <div><p class="title">HTML</p></div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div><p class="title">CSS</p></div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div><p class="title">Javascript</p></div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div><p class="title">Ruby</p></div>
-      </div>
-    </div>
-    <br><br>
-    <div class="level">
-      <div class="level-item has-text-centered">
-        <div><p class="title">Rails</p></div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div><p class="title">Github</p></div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div><p class="title">Terminal</p></div>
-      </div>
-      <div class="level-item has-text-centered">
-        <div><p class="title">Sketch</p></div>
-      </div>
-    </div>
-  </div>
-
   <!-- Projects  -->
-  <section class="section">
+  <section class="section" id="projects">
     <div class="container">
-      <h1 class="title">Projects</h1>
-      <h2 class="subtitle">Here's a sampling of my recent projects.</h2>
+      <h1 class="title has-text-centered">Projects</h1>
+      <h2 class="subtitle has-text-centered">Here's a sampling of my recent projects.</h2>
     </div>
   </section>
 
@@ -122,8 +126,8 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <p class="title has-text-centered">One</p>
-          <figure class="image is-4by3">
-            <img src="public/img/square.png">
+          <figure class="image">
+            <img src="public/img/MBP.png">
           </figure>
           <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
@@ -133,8 +137,8 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <p class="title has-text-centered">Two</p>
-          <figure class="image is-4by3">
-            <img src="public/img/square.png">
+          <figure class="image">
+            <img src="public/img/MBP.png">
           </figure>
           <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
@@ -144,8 +148,8 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <p class="title has-text-centered">Three</p>
-          <figure class="image is-4by3">
-            <img src="public/img/square.png">
+          <figure class="image">
+            <img src="public/img/MBP.png">
           </figure>
           <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
@@ -155,8 +159,8 @@
       <div class="tile is-parent">
         <article class="tile is-child box">
           <p class="title has-text-centered">Four</p>
-          <figure class="image is-4by3">
-            <img src="public/img/square.png">
+          <figure class="image">
+            <img src="public/img/MBP.png">
           </figure>
           <div class="content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
@@ -165,31 +169,32 @@
       </div>
     </div>
     <div class="buttons is-centered">
-      <a class="button is-medium is-primary">See More Projects</a>
+      <a class="button is-medium is-dark">See More Projects</a>
     </div>
   </div>
 
+
+
   <!-- Stay in Touch -->
 
-  <section class="section">
+  <section class="section" id="contact">
     <div class="container">
       <h1 class="title has-text-centered">Stay In Touch</h1>
-      <!-- TODO fix the icons from font-awesome -->
       <div class="buttons is-centered">
         <a class="button is-medium">
-          <span class="icon"><i class="fa fa-envelope"></i></span>
+          <span class="icon"><i class="far fa-envelope"></i></span>
           <span>Email</span>
         </a>
         <a class="button is-medium">
-          <span class="icon"><i class="fa fa-github"></i></span>
+          <span class="icon"><i class="fab fa-github"></i></span>
           <span>GitHub</span>
         </a>
         <a class="button is-medium">
-          <span class="icon"><i class="fa fa-linkedin"></i></span>
+          <span class="icon"><i class="fab fa-linkedin-in"></i></span>
           <span>LinkedIn</span>
         </a>
         <a class="button is-medium">
-          <span class="icon"><i class="fa fa-twitter"></i></span>
+          <span class="icon"><i class="fab fa-twitter"></i></span>
           <span>Twitter</span>
         </a>
       </div>
