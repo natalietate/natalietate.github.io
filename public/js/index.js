@@ -1,5 +1,6 @@
 // TODO page load transition
 // TODO scroll animations - things coming into frame
+// TODO navbar collapse
 
 document.addEventListener('DOMContentLoaded', function () {
   // Get all "navbar-burger" elements
