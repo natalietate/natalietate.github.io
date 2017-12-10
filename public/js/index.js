@@ -26,39 +26,40 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-(function easterEgg() {
-  var date = new Date();
-  var hrs = date.getHours();
-  var img = document.querySelector("#rotate");
-
-  // night
-  if (hrs >= 20) {
-    img.className += " night";
-  }
-
-  // evening
-  else if (hrs >= 16) {
-    img.className += " evening";
-  }
-
-  // afternoon
-  else if (hrs >= 12) {
-    img.className += " afternoon";
-  }
-
-  // morning
-  else if (hrs >= 8) {
-    img.className += " morning";
-  }
-
-  // early am
-  else if (hrs >= 4) {
-    img.className += " early";
-  }
-
-  // late night
-  else {
-    img.className += " late";
-  }
-
-})();
+// Different Hero image based on time of day (tabled for now)
+// (function easterEgg() {
+//   var date = new Date();
+//   var hrs = date.getHours();
+//   var img = document.querySelector("#rotate");
+//
+//   // night
+//   if (hrs >= 20) {
+//     img.className += " night";
+//   }
+//
+//   // evening
+//   else if (hrs >= 16) {
+//     img.className += " evening";
+//   }
+//
+//   // afternoon
+//   else if (hrs >= 12) {
+//     img.className += " afternoon";
+//   }
+//
+//   // morning
+//   else if (hrs >= 8) {
+//     img.className += " morning";
+//   }
+//
+//   // early am
+//   else if (hrs >= 4) {
+//     img.className += " early";
+//   }
+//
+//   // late night
+//   else {
+//     img.className += " late";
+//   }
+//
+// })();
