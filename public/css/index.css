@@ -5,6 +5,10 @@ h1, .project-title {
   font-family: 'Biryani', sans-serif;
 }
 
+.jumbo {
+  font-size: 4em;
+}
+
 .main-hello {
     text-shadow: 2px 2px 4px #000000;
 }
