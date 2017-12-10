@@ -2,6 +2,10 @@
 // TODO scroll animations - things coming into frame
 // TODO navbar collapse
 
+console.log("Hey there! Thanks for checking out my portfolio.")
+console.log("You know, I'm currently available for hire...")
+console.log("Feel free to reach out to me at martin.nat@gmail.com.")
+
 document.addEventListener('DOMContentLoaded', function () {
   // Get all "navbar-burger" elements
   var navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
